@@ -1,37 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Project</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Cars</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <h1 class="title">Ремонт <span> ноутбуков</span></h1>
-
-    <div class="main">
-        <div class="main-info">
-            <!-- <p class="title">некоторый текст</p> -->
-            <h2>Почему лучше обратиться именно к нам?</h2>
-            <ul>
-                <li>Бесплатная диагностика поломки прямо при клиенте</li>
-                <li>Молниеносная скорость починки (от 20 минут до 2 рабочих дней)</li>
-                <li>Больше 10 лет на рынке – починили более 2500 ноутбуков</li>
-                <!-- <li>самые эффективные практики</li> -->
-            </ul>
-            <a href="http://google.com">посмотреть кейсы</a>
+    
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <img src="css\imgs\logo.png" alt="logotype">  
         </div>
-        <img src="image2.png" alt="image">
+        <nav class="menu">
+            <ul>
+                <li class="menu-item">
+                    <a href="#">Главная</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#cars">Автомобили</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#price">Бронирование авто</a>
+                </li>
+            </ul>
+        </nav>
     </div>
-    <div class="form">
-        <h2>Прайс наших услуг</h2>
-        <input type="text" placeholder="Ваше имя">
-        <input type="text" placeholder="ваш телефон">
-        <input type="email" name="" id="" placeholder="Ваш E-mail">
-        <button type="submit">нажми на меня</button>
-    </div>
+</header>
 
+
+<main >
+    <section class="main">
+<div class="container">
+    <div class="main-info">
+        <h1 class="main-title">Аренда премиальных автомобилей</h1>
+        <div class="main-text">
+            В нашем клубе имеется солидная коллекция спортивных автомобилей — от достаточно распространенных серийных машин до настоящего гоночного эксклюзива. Воспользуйтесь уникальной возможностью побывать за рулем настоящей легенды и узнать, на что она способна за пределами гоночной трассы!
+        </div>
+        <div class="main-action">
+            <button class="button" id="main-action">Посмотреть автомобили</button>
+        </div>
+    </div>
+</div>
+</section>
+<section class="car" id="cars">
+    <div class="container">
+        <h2 class="sub-title">Автопарк</h2>
+        <div class="car-items">
+            <div class="car-item">
+                <div class="car-img">
+                    <img src="css/imgs/1.png" alt="">
+                </div>
+                <div class="car-title">
+                    Lamborghini Huracan Spyder
+                </div>
+                <div class="car-info">
+                    <div class="car-item-point">
+                        <img src="css/imgs/gear.png" alt="">
+                        <div>Привод</div>
+                        <div>Полный</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/Group.png" alt="">
+                        <div>Двигатель</div>
+                        <div>5.2 л.с</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/belt.png" alt="">
+                        <div>Кол-во мест</div>
+                        <div>2</div>
+                    </div>
+                </div>
+                <div class="car-item-action">
+                    <button class="button car-button">Забронировать</button>
+                </div>
+            </div>
+            <div class="car-item">
+                <div class="car-img">
+                    <img src="css/imgs/2.png" alt="">
+                </div>
+                <div class="car-title">
+                    Chevrolet Corvette
+                </div>
+                <div class="car-info">
+                    <div class="car-item-point">
+                        <img src="css/imgs/gear.png" alt="">
+                        <div>Привод</div>
+                        <div>Полный</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/Group.png" alt="">
+                        <div>Двигатель</div>
+                        <div>6.2 л.с</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/belt.png" alt="">
+                        <div>Кол-во мест</div>
+                        <div>2</div>
+                    </div>
+                </div>
+                <div class="car-item-action">
+                    <button class="button car-button">Забронировать</button>
+                </div>
+            </div>
+            <div class="car-item">
+                <div class="car-img">
+                    <img src="css/imgs/3.png" alt="">
+                </div>
+                <div class="car-title">
+                    Ferrari California
+                </div>
+                <div class="car-info">
+                    <div class="car-item-point">
+                        <img src="css/imgs/gear.png" alt="">
+                        <div>Привод</div>
+                        <div>Полный</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/Group.png" alt="">
+                        <div>Двигатель</div>
+                        <div>3.9 л.с</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/belt.png" alt="">
+                        <div>Кол-во мест</div>
+                        <div>4</div>
+                    </div>
+                </div>
+                <div class="car-item-action">
+                    <button class="button car-button">Забронировать</button>
+                </div>
+            </div>
+            <div class="car-item">
+                <div class="car-img">
+                    <img src="css/imgs/4.png" alt="">
+                </div>
+                <div class="car-title">
+                    Lamborghini Urus
+                </div>
+                <div class="car-info">
+                    <div class="car-item-point">
+                        <img src="css/imgs/gear.png" alt="">
+                        <div>Привод</div>
+                        <div>Полный</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/Group.png" alt="">
+                        <div>Двигатель</div>
+                        <div>4 л.с</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/belt.png" alt="">
+                        <div>Кол-во мест</div>
+                        <div>5</div>
+                    </div>
+                </div>
+                <div class="car-item-action">
+                    <button class="button car-button">Забронировать</button>
+                </div>
+            </div>
+            <div class="car-item">
+                <div class="car-img">
+                    <img src="css/imgs/5.png" alt="">
+                </div>
+                <div class="car-title">
+                    Audi R8
+                </div>
+                <div class="car-info">
+                    <div class="car-item-point">
+                        <img src="css/imgs/gear.png" alt="">
+                        <div>Привод</div>
+                        <div>Полный</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/Group.png" alt="">
+                        <div>Двигатель</div>
+                        <div>5.2 л.с</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/belt.png" alt="">
+                        <div>Кол-во мест</div>
+                        <div>2</div>
+                    </div>
+                </div>
+                <div class="car-item-action">
+                    <button class="button car-button">Забронировать</button>
+                </div>
+            </div>
+            <div class="car-item">
+                <div class="car-img">
+                    <img src="css/imgs/6.png" alt="">
+                </div>
+                <div class="car-title">
+                    Chevrolet Camaro
+                </div>
+                <div class="car-info">
+                    <div class="car-item-point">
+                        <img src="css/imgs/gear.png" alt="">
+                        <div>Привод</div>
+                        <div>Полный</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/Group.png" alt="">
+                        <div>Двигатель</div>
+                        <div>5.2 л.с</div>
+                    </div>
+                    <div class="car-item-point">
+                        <img src="css/imgs/belt.png" alt="">
+                        <div>Кол-во мест</div>
+                        <div>2</div>
+                    </div>
+                </div>
+                <div class="car-item-action">
+                    <button class="button car-button">Забронировать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+
+<section class="price" id="price">
+    <div class="container">
+        <h2 class="sub-title">Узнать цену и забронировать</h2>
+        <div class="price-text">Заполните данные, и мы перезвоним вам для уточнения всех деталей бронирования</div>
+    
+    <form action="" class="price-form">
+        <input type="text" name="" id="name" class="price-input" placeholder="Ваше имя">
+        <input type="text" name="" id="phone" class="price-input" placeholder="Ваш телефон">
+        <input type="text" name="" id="car" class="price-input" placeholder="Автомобиль, который вас интересует">
+        <button class="button" id="price-action" type="button">Узнать цену</button>
+    </form>
+    <img class="price-image" src="css/imgs/rolls.png" alt="">
+</div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="logo">
+            <img src="css\imgs\logo.png" alt="logotype">  
+        </div>
+        <div class="rights">
+            Gexgl inc.
+        </div>
+    </div>
+</footer>
+<script src="index.js"></script>
 </body>
-
 </html>
